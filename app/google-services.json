@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "467404682016",
+    "firebase_url": "https://smartdoor-e4489-default-rtdb.firebaseio.com",
+    "project_id": "smartdoor-e4489",
+    "storage_bucket": "smartdoor-e4489.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467404682016:android:7270787731fc7d7d785d45",
+        "android_client_info": {
+          "package_name": "com.example.smartdoor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467404682016-vnn2h28fqcfr5jvjb729cik81uu7a9cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTlTOOsI5vocoQeMc1jy9RSJw21Wq5dBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467404682016-vnn2h28fqcfr5jvjb729cik81uu7a9cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

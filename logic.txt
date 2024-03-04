@@ -1,0 +1,3 @@
+current = close && mode = lock -> rotate servo to 0
+current = close && mode = unlock -> rotate servo to 180
+current = open && (mode = lock || mode = unlock) -> buzzer (On / Off)

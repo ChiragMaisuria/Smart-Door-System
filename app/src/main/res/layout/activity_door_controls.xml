@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoorControls">
+
+    <ImageView
+        android:id="@+id/imageViewDoorStatus"
+        android:layout_width="410dp"
+        android:layout_height="471dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061"
+        app:srcCompat="@drawable/dooro" />
+
+    <ImageButton
+        android:id="@+id/lockBtn"
+        android:layout_width="94dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/doorl"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/unlockBtn"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/unlockBtn"
+        android:layout_width="95dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/doorul"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buzzOnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="32dp"
+        android:text="Buzz On"
+        app:layout_constraintBottom_toTopOf="@+id/lockBtn"
+        app:layout_constraintEnd_toStartOf="@+id/buzzOffBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDoorStatus" />
+
+    <Button
+        android:id="@+id/buzzOffBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="37dp"
+        android:text="Buzz Off"
+        app:layout_constraintBottom_toTopOf="@+id/unlockBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDoorStatus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
